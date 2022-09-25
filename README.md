@@ -1,49 +1,20 @@
-# 1972 - Criando APIs com NodeJs
+#  Projeto Base para APIs com NodeJs
 
-### LINK PARA OS VÍDEOS
-Você pode assistir os vídeos deste curso sendo um assinante do site http://balta.io.
+### Ter o Exencial
+Com esse projeto base de NodeJs para Criação de APIs quero ter 
+o Exencial para começar a desenvolver uma API principal de um sistema
+Web e App Desktop e Mobile.
 
-http://player.balta.io/#/courses/1972
+### Descrição
+Neste Projeto vai ter varias tecnologias, a lista das tecnologia estão
+logo a baixo deste texto.
 
-### Sumário
-Neste curso vamos unir a popularidade das APIs com a popularidade do JavaScript criando uma API completa com NodeJs, passando pelos principais pontos que você precisa conhecer para colocar seu projeto em produção.
+### Lista de Tecnologia 
+* Instalação do projeto
+* Utilizando Express
+* Utilizando o MongoDB
+* Utilizando o JWT para autenticação
+* Utilizando Upload de arquivos, como fotos.
 
-### Conteúdo Programático
-* Instalação Node, NPM e VS Code
-* npm init e instalação dos pacotes
-* Criando um servidor Web
-* Normalizando a porta
-* Gerenciando Erros do Servidor
-* Iniciando o Debug
-* Separando o Servidor
-* Configurando o NPM Start
-* Nodemon
-* CRUD REST
-* Rotas
-* Controllers
-* MongoDb Setup
-* Mongooose
-* Models
-* Criando um Produto
-* Listando os Produtos
-* Listando um Produto pelo slug
-* Listando um Produto pelo Id
-* Listando os Produtos de uma tag
-* Atualizando um produto
-* Excluindo um produto
-* Validações
-* Repositórios
-* Async/Await
-* Revisitando os Models: Customer
-* Revisitando os Models: Order
-* Revisitando os Models: OrderItems
-* Revisitando os Controllers: Customer
-* Revisitando os Controllers: Order
-* Arquivo de Configurações
-* Enviando E-mail de Boas Vindas
-* Upload da Imagem do Produto
-* Autenticação
-* Autorização
-* Habilitando CORS
-* Publicando a API
+
 
