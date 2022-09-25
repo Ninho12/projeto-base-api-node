@@ -1,14 +1,16 @@
 // Os Metodos do Http
 
-
+exports.get = (req, res, next) => {
+    res.status(200).send('Requisição do Metodo Get Recebida com Sucesso!');
+};
 exports.post = (req, res, next) => {
-    res.status(201).send('Requisição recebida com sucesso!');
+    res.status(201).send('Requisição do Metodo Post Recebida com Sucesso!');
 };
 exports.put = (req, res, next) => {
     let id = req.params.id;
-    res.status(201).send(`Requisição recebida com sucesso! ${id}`);
+    res.status(201).send(`Requisição do Metodo Put Recebida com Sucesso! ${id}`);
 };
 exports.delete = (req, res, next) => {
     let id = req.params.id;
-    res.status(200).send(`Requisição recebida com sucesso! ${id}`);
+    res.status(200).send(`Requisição do Metodo Delete Recebida com Sucesso! ${id}`);
 };
